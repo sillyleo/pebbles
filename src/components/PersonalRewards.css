@@ -1,0 +1,36 @@
+.cryptoperp-icon2 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.div2 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+}
+.frame-div19,
+.frame-div20 {
+  display: flex;
+  align-items: center;
+}
+.frame-div20 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.frame-div19 {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: Inter;
+}
