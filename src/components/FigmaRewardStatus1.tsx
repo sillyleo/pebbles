@@ -1,12 +1,13 @@
 import { FunctionComponent, useEffect } from "react";
+import PersonalRewards from "../components/PersonalRewards";
 import "./FigmaRewardStatus1.css";
 
 type FigmaRewardStatus1Type = {
-  apr7Apr142022?: string;
+  dateRange?: string;
 };
 
 const FigmaRewardStatus1: FunctionComponent<FigmaRewardStatus1Type> = ({
-  apr7Apr142022 = "wrewer",
+  dateRange = "Apr 7 - Apr 14, 2022",
 }) => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
@@ -40,116 +41,107 @@ const FigmaRewardStatus1: FunctionComponent<FigmaRewardStatus1Type> = ({
 
   return (
     <div className="figma-reward-status1" data-animate-on-scroll>
-      <div className="frame-div34">
-        <p className="rewards-status-apr-7-14-205">Last Settlememt</p>
-        <div className="frame-div35">
-          <div className="apr-7-apr-14-20221">{apr7Apr142022}</div>
+      <div className="frame-div21">
+        <div className="rewards-status-apr-7-14-202">Last Settlememt</div>
+        <div className="frame-div22">
+          <div className="apr-7-apr-14-20221">{dateRange}</div>
         </div>
-        <div className="line-div9" />
+        <div className="line-div" />
       </div>
-      <div className="frame-div36">
-        <div className="rewards-status-apr-7-14-206" />
-        <img className="line-icon4" alt="" src="../assets/line-80.svg" />
-        <div className="frame-div37">
-          <div className="frame-div38">
+      <div className="frame-div23">
+        <div className="rewards-status-apr-7-14-203" />
+        <img className="line-icon" alt="" src="../assets/line-80.svg" />
+        <div className="frame-div24">
+          <div className="frame-div25">
             <img
-              className="cryptoveperp-icon6"
+              className="cryptoveperp-icon"
               alt=""
               src="../assets/cryptoveperp.svg"
             />
-            <div className="div7">Market</div>
+            <div className="div3">Market</div>
           </div>
         </div>
-        <div className="frame-div39">
-          <div className="frame-div40">
+        <div className="frame-div26">
+          <div className="frame-div27">
             <img
-              className="cryptoveperp-icon6"
+              className="cryptoveperp-icon"
               alt=""
               src="../assets/cryptoveperp1.svg"
             />
-            <div className="div7">Mine</div>
+            <div className="div3">Mine</div>
           </div>
         </div>
-        <div className="line-div10" />
-        <div className="line-div11" />
+        <div className="line-div1" />
+        <div className="line-div2" />
       </div>
-      <div className="frame-div41">
-        <p className="rewards-status-apr-7-14-207">Volume</p>
-        <img className="line-icon4" alt="" src="../assets/line-80.svg" />
-        <div className="frame-div37">
-          <div className="frame-div38">
+      <div className="frame-div28">
+        <p className="rewards-status-apr-7-14-204">Volume</p>
+        <img className="line-icon" alt="" src="../assets/line-80.svg" />
+        <div className="frame-div24">
+          <div className="frame-div25">
             <img
-              className="cryptoveperp-icon6"
+              className="cryptoveperp-icon"
               alt=""
               src="../assets/cryptoveperp2.svg"
             />
-            <div className="div9">$100,000,000</div>
+            <div className="div5">$100,000,000</div>
           </div>
         </div>
-        <div className="frame-div39">
-          <div className="frame-div40">
+        <div className="frame-div26">
+          <div className="frame-div27">
             <img
-              className="cryptoveperp-icon6"
+              className="cryptoveperp-icon"
               alt=""
               src="../assets/cryptoveperp3.svg"
             />
-            <div className="div9">$10,000</div>
+            <div className="div5">$10,000</div>
           </div>
         </div>
-        <div className="line-div10" />
-        <div className="line-div11" />
+        <div className="line-div1" />
+        <div className="line-div2" />
       </div>
-      <div className="frame-div41">
-        <p className="rewards-status-apr-7-14-207">vePERP</p>
-        <img className="line-icon4" alt="" src="../assets/line-80.svg" />
-        <div className="frame-div37">
-          <div className="frame-div38">
+      <div className="frame-div28">
+        <p className="rewards-status-apr-7-14-204">vePERP</p>
+        <img className="line-icon" alt="" src="../assets/line-80.svg" />
+        <div className="frame-div24">
+          <div className="frame-div25">
             <img
-              className="cryptoveperp-icon10"
+              className="cryptoveperp-icon4"
               alt=""
               src="../assets/cryptoveperp4.svg"
             />
-            <div className="div9">10,000,000</div>
+            <div className="div5">10,000,000</div>
           </div>
         </div>
-        <div className="frame-div39">
-          <div className="frame-div40">
+        <div className="frame-div26">
+          <div className="frame-div27">
             <img
-              className="cryptoveperp-icon10"
+              className="cryptoveperp-icon4"
               alt=""
               src="../assets/cryptoveperp5.svg"
             />
-            <div className="div9">1,000 (0.1%)</div>
+            <div className="div5">1,000 (0.1%)</div>
           </div>
         </div>
-        <div className="line-div10" />
-        <div className="line-div11" />
+        <div className="line-div1" />
+        <div className="line-div2" />
       </div>
-      <div className="frame-div41">
-        <p className="rewards-status-apr-7-14-207">Rewards</p>
-        <img className="line-icon4" alt="" src="../assets/line-80.svg" />
-        <div className="frame-div37">
-          <div className="frame-div38">
+      <div className="frame-div28">
+        <p className="rewards-status-apr-7-14-204">Rewards</p>
+        <img className="line-icon" alt="" src="../assets/line-80.svg" />
+        <div className="frame-div24">
+          <div className="frame-div25">
             <img
-              className="cryptoveperp-icon10"
+              className="cryptoveperp-icon4"
               alt=""
               src="../assets/cryptoperp.svg"
             />
-            <div className="div9">10,000,000</div>
+            <div className="div5">10,000,000</div>
           </div>
         </div>
-        <div className="frame-div39">
-          <div className="frame-div40">
-            <img
-              className="cryptoveperp-icon10"
-              alt=""
-              src="../assets/cryptoperp1.svg"
-            />
-            <div className="div9">1,000</div>
-          </div>
-        </div>
-        <div className="line-div16" />
-        <div className="line-div11" />
+        <PersonalRewards />
+        <div className="line-div7" />
+        <div className="line-div2" />
       </div>
     </div>
   );
